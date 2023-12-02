@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Hedvig+Letters+Serif:opsz@12..24&family=Noto+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&family=Tilt+Neon&display=swap');
 
+head img{
+    width: 10px;
+}
+
 body{
     padding: 0;
     margin: 0;
+    max-width: 1366px;
+    justify-content: center;
     
 }
-
 .header{
     display: flex;
     background-color: aquamarine;
@@ -13,7 +18,6 @@ body{
     padding: 10px 50px 10px 50px;
     justify-content: space-between ;
     align-items: center;
-    
 }
 
 .logo{
@@ -353,8 +357,8 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 93%;
-    left: 75%;
+    top: 570px;
+    left: 983.52px;
     transform: translate(-50%, -50%);
     z-index: 100; /* Ensure the button appears above the divs */
     border: none;
@@ -397,3 +401,5 @@ body{
 .gap{
     margin-top: 100px;
 }
+
+
