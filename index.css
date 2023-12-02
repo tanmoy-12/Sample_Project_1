@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Hedvig+Letters+Serif:opsz@12..24&family=Noto+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&family=Tilt+Neon&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.header{
+    display: flex;
+    background-color: aquamarine;
+    margin-bottom: 0px;
+    padding: 10px 50px 10px 50px;
+    justify-content: space-between ;
+    align-items: center;
+    
+}
+
+.logo{
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.navigation{
+    margin: 0 33px 0 33px;
+}
+
+.header_text{
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 20px 0 10px;
+}
+
+.custom-button{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.container1 {
+    display: flex;
+    background-color: rgb(5, 77, 77);
+    background-size: cover;
+    color: white;
+    padding: 30px 30px 0 30px;
+}
+
+.left-side-container {
+    max-width: 800px;
+    justify-content: left;
+    padding-top: 40px;
+    padding-left: 120px;
+    margin-right: 180px;
+
+}
+
+.left-side-container h1 {
+    font-size: 70px;
+    margin: 10px 0;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.left-side-container p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.btn{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    background-color: rgb(3, 3, 70);
+    border: none;
+    border-radius: 5px;
+    left: 0px;
+    margin:20px 20px 10px 0;
+    font-size: large;
+    font-weight: bold;
+}
+
+.right-side-container{
+    margin-right: 0;
+    justify-content: right;
+    padding:0;
+}
+
+.right-side-container {
+    float: right;
+    margin-top: 0px; /* Adjust the margin as needed */
+    margin-right: 50px; /* Adjust the margin as needed */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.container2{
+    background-color: rgb(186, 237, 220);
+    display: flex;
+    background-size: cover;
+    padding: 40px 30px 40px 30px;
+    margin-bottom: 0;
+}
+
+.left-side-container2{
+
+    width: 500px;
+    justify-content: left;
+    padding-top: 90px;
+    padding-left: 120px;
+    margin-right: 30px;
+}
+
+.left-side-container2 h1{
+    color:rgb(30, 79, 79);
+    font-size: 70px;
+    margin: 3px 0 0px 0px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 900px;
+    text-align: left;
+    margin-top: -8px;
+
+}
+
+.left-side-container2 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: -5px;
+    color: rgb(79, 77, 77);
+}
+
+
+.paragraph{
+    margin: 40px 0 0 0;
+}
+
+.divbtn{
+    display: block;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.box{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding: 30px;
+    justify-content: center;
+    margin:10px;
+    width: 300px;
+}
+
+.left-side h1{
+    font-size: 100px;
+    color: rgb(174, 173, 173);
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-weight: 200px;
+}
+
+.right-side{
+    margin-top: 0px;
+    padding: 0;
+}
+
+.right-side p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(105, 103, 100);
+    margin-top: 0px;
+    font-size: smaller;
+}
+
+.right-side-container2{
+    display: flex ;
+    flex-wrap: wrap;
+}
+
+.container3{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(182, 212, 246);
+    background-size: cover;
+    padding: 40px 30px 40px 30px;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+.sub-container{
+    display: flex;
+    justify-content: center;
+}
+
+.up{
+    background-color: rgb(255, 255, 255);
+    width:500px;
+    padding:30px;
+    margin:30px;
+    border-radius: 10px;
+    color: rgb(112, 110, 107);
+    box-shadow: 10px 5px 10px rgba(123, 120, 120, 0.5);
+}
+
+.left-sub-container{
+ justify-content: center;
+ text-align: center;   
+}
+
+.right-sub-container{
+    text-align: center;
+    justify-content: center;
+}
+
+.review{
+    font-size: 60px;
+}
+
+.down{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.customer{
+    padding-top: 16px;
+    margin-right: 10px;
+}
+
+.customer-riview{
+    margin: 0;
+    text-align: center;
+}
+
+.customer-riview h3{
+    margin: 20px 0 0 0;
+    color: rgb(55, 54, 54);
+}
+
+.customer-riview h4{
+    margin:2px 0 0 0;
+    color:rgb(85, 85, 85)
+}
+
+.more-btn{
+    color: white;
+    background-color: rgb(35, 35, 80);
+    border-radius: 15px;
+    padding: 15px 35px;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container4{
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.container4 h1{
+    font-weight: bold;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 50px;
+}
+
+.container4 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+.call{
+    
+    color: white;
+    background-color: rgb(64, 64, 154);
+    border-radius: 10px;
+    padding: 15px 40px;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background-color: rgb(28, 47, 47);
+    display: flex;
+    padding: 20px;
+}
+
+.right-container-footer{
+    display: flex;
+    right:50px;
+}
+
+.sub-container-footer{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+.sub-container-footer h2{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+
+}
+
+.sub-container-footer a{
+    -ms-text-kashida-space: 50px;
+}
+
+.left-container-footer{
+    padding: 30px;
+    margin-right: 500px;
+    padding-left: 70px;
+}
+
+.sub-container-footer {
+    margin: 0 20px 0 20px;
+}
+
+.logo1{
+    margin-bottom: 40px;
+    color: aliceblue;
+}
+
+.social-media{
+    margin-top: 50px;
+    display: flex;
+}
+
+.social-media img{
+    margin-right: 20px;
+}
+
+.copyright{
+    margin-top:40px;
+    color: white;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 93%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 100; /* Ensure the button appears above the divs */
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    width:260px;
+    height:80px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 1px 5px 4px rgba(123, 120, 120, 0.5);
+}
+
+.button p{
+    margin-top: 0px;
+    font-size: small;
+}
+
+.sub-container-footer a{
+    margin:5px;
+}
+
+.sub-container-footer a:hover{
+    color:rgb(59, 70, 167);
+    cursor: pointer;
+}
+
+.pointer {
+	height: 40px;
+	width: 25px;
+	background: rgb(255, 255, 255);
+	margin: 0 auto;
+	transform: rotate(45deg);
+	border-radius: 0 0 8px 0;
+	margin-top: -140px;
+	position: relative;
+	left: calc(0.5vw - 50px);
+    border: none;
+    box-shadow: 0px px  rgba(123, 120, 120, 0.5);
+}
+
+.gap{
+    margin-top: 100px;
+}
